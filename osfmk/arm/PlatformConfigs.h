@@ -37,6 +37,11 @@
 #define __ARM_PROCESSOR_CLASS_QUALCOMM_A9__		1
 #endif
 
+#ifdef BOARD_CONFIG_MSM8974_RM1045
+#define __ARM_PROCESSOR_CLASS_CORTEX_A9__		1
+#define __ARM_PROCESSOR_CLASS_QUALCOMM_A9__		1
+#endif
+
 /* ARMv7 Cortex-A8 platforms. */
 
 #ifdef BOARD_CONFIG_S5L8920X

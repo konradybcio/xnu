@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.aslc": "c",
+        "xutility": "c"
+    }
+}
