@@ -111,8 +111,8 @@ mmu_reinitialize:
     mov     r6, #0xE            /* This is a section descriptor */
     orr     r6, r6, #0x400      /* Permissions */
 
-    /* Identity map UART for right now */
-    LoadConstantToReg((0x7f600000), r7)
+    /* Identity map FrameBuffer for right now */
+    LoadConstantToReg((0x00400000), r7)
     mov     r7, r7, lsr#20
     add     r5, r4, r7, lsl#2
     mov     r7, r7, lsl#20
